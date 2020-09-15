@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "bazelisk build //..."
+  },
+  "devDependencies": {
+    "@bazel/bazelisk": "^1.6.1"
+  }
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package message;
+
+import "empty.proto";
+
+message SomeMessage {
+  string content = 1;
+  string author = 2;
+}
+
+service SomeService {
+  rpc sendMessage(SomeMessage) returns(Empty);
+}
